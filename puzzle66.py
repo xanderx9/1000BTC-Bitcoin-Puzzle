@@ -25,7 +25,7 @@ def check_key_range(start_key, stop_key, target_address, process_id, randomize=F
         generated_address = pubtoaddr(pub_key)
         
         # Progress feedback for this process
-        if i % 1000 == 0:  # Adjust frequency as needed
+        if i % 1000000 == 0:  # Adjust frequency as needed
             progress = (i / key_range_size) * 100
             print(f"Process {process_id}: Checked {i}/{key_range_size} keys ({progress:.4f}% complete)")
             sys.stdout.flush()
