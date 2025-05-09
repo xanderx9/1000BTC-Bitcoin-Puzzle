@@ -37,9 +37,9 @@ def check_key_range(start_key, stop_key, target_address, process_id, randomize=F
     return None
 
 if __name__ == '__main__':
-    target_address = "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so"
-    start_key_hex = "0000000000000000000000000000000000000000000000000000000000008000"
-    stop_key_hex = "0000000000000000000000000000000000000000000000000000000000000ffff"
+    target_address = "1L2GM8eE7mJWLdo3HZS6su1832NX2txaac"
+    start_key_hex = "0000000000000000000000000000000000000000000000000000000000400000"
+    stop_key_hex = "000000000000000000000000000000000000000000000000000000000007fffff"
     
     start_key = int(start_key_hex, 16)
     stop_key = int(stop_key_hex, 16)
